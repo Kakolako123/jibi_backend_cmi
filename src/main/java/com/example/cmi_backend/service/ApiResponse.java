@@ -3,6 +3,7 @@ package com.example.cmi_backend.service;
 import com.example.cmi_backend.entity.PaymentAccount;
 
 public class ApiResponse {
+    private String var;
     private String message;
     private Object data;
 
