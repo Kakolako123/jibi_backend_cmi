@@ -1,4 +1,4 @@
-package com.example.cmi_backend.dto;
+package com.example.cmi_backend.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

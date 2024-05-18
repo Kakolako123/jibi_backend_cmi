@@ -1,6 +1,6 @@
 package com.example.cmi_backend.service;
 
-import com.example.cmi_backend.dto.PaymentAccountCreationRequest;
+import com.example.cmi_backend.model.PaymentAccountCreationRequest;
 import com.example.cmi_backend.entity.Customer;
 import com.example.cmi_backend.entity.PaymentAccount;
 import com.example.cmi_backend.repositery.CustomerRepository;
