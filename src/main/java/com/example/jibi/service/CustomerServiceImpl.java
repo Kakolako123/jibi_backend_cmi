@@ -1,8 +1,7 @@
 package com.example.jibi.service;
 
-import com.example.jibi.model.Customer;
+import com.example.jibi.entity.Customer;
 import com.example.jibi.repository.CustomerRepository;
-import com.example.jibi.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

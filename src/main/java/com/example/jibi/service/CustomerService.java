@@ -1,6 +1,6 @@
 package com.example.jibi.service;
 
-import com.example.jibi.model.Customer;
+import com.example.jibi.entity.Customer;
 
 import java.util.List;
 import java.util.Optional;

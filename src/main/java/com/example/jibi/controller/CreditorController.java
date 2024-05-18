@@ -1,6 +1,6 @@
 package com.example.jibi.controller;
 
-import com.example.jibi.model.Creditor;
+import com.example.jibi.entity.Creditor;
 import com.example.jibi.service.CreditorService;
 import org.springframework.web.bind.annotation.*;
 

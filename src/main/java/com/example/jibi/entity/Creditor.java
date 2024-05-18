@@ -1,16 +1,18 @@
-package com.example.jibi.model;
+package com.example.jibi.entity;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Debt {
+public class Creditor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,10 +23,12 @@ public class Debt {
 
     @Column(nullable = false)
     private String name;
-    @JsonBackReference
-    @ManyToOne
-    @JoinColumn(name = "creditor_id", nullable = false)
-    private Creditor creditor;
+
+    @Column(nullable = false)
+    private String category;
+    @JsonManagedReference
+    @OneToMany(mappedBy = "creditor", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Debt> debts;
 
 
 }

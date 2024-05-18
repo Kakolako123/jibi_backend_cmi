@@ -1,4 +1,4 @@
-package com.example.jibi.model;
+package com.example.jibi.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -7,7 +7,6 @@ import lombok.AllArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 import java.time.LocalDate;
-import java.util.Collection;
 import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 /*import org.springframework.security.core.GrantedAuthority;

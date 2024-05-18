@@ -1,6 +1,6 @@
 package com.example.jibi.repository;
 
-import com.example.jibi.model.Customer;
+import com.example.jibi.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

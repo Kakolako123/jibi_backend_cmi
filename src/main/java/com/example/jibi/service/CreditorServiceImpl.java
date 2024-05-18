@@ -1,8 +1,7 @@
 package com.example.jibi.service;
 
-import com.example.jibi.model.Creditor;
+import com.example.jibi.entity.Creditor;
 import com.example.jibi.repository.CreditorRepository;
-import com.example.jibi.service.CreditorService;
 import org.springframework.stereotype.Service;
 import java.util.List;
 

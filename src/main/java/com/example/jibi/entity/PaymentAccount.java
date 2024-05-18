@@ -1,7 +1,5 @@
-package com.example.jibi.model;
+package com.example.jibi.entity;
 
-import com.example.jibi.model.Customer;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
 
