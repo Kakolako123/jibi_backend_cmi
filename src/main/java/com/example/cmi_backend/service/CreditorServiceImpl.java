@@ -1,8 +1,8 @@
 package com.example.cmi_backend.service;
 
 import com.example.cmi_backend.entity.Creditor;
-import com.example.jibi.entity.Creditor;
-import com.example.jibi.repository.CreditorRepository;
+
+import com.example.cmi_backend.repository.CreditorRepository;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
