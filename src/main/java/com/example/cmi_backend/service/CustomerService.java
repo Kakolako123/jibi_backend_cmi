@@ -1,7 +1,7 @@
 package com.example.cmi_backend.service;
 
 import com.example.cmi_backend.entity.Customer;
-import com.example.jibi.entity.Customer;
+
 
 import java.util.List;
 import java.util.Optional;

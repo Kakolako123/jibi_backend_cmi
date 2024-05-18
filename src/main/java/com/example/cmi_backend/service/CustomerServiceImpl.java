@@ -1,8 +1,8 @@
 package com.example.cmi_backend.service;
 
 import com.example.cmi_backend.entity.Customer;
-import com.example.jibi.entity.Customer;
-import com.example.jibi.repository.CustomerRepository;
+
+import com.example.cmi_backend.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
