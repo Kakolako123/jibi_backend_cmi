@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PaymentAccountCreationRequest {
+
     private String firstName;
     private String lastName;
     private String phoneNumber;

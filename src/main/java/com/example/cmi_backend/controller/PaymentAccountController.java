@@ -15,7 +15,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/payment-accounts")
 public class PaymentAccountController {
-
     @Autowired
     private PaymentAccountService paymentAccountService;
 

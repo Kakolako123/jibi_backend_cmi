@@ -13,6 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Creditor {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long codeCreditor;
