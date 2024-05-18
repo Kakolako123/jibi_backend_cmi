@@ -1,6 +1,6 @@
-package com.example.jibi.controller;
+package com.example.cmi_backend.controller;
 
-import com.example.jibi.service.FormService;
+import com.example.cmi_backend.service.FormService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.example.jibi.service;
+package com.example.cmi_backend.service;
 
 import org.springframework.stereotype.Service;
 

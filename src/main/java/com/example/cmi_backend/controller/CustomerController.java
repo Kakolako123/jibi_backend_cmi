@@ -1,7 +1,8 @@
-package com.example.jibi.controller;
+package com.example.cmi_backend.controller;
 
-import com.example.jibi.entity.Customer;
-import com.example.jibi.service.CustomerService;
+
+import com.example.cmi_backend.entity.Customer;
+import com.example.cmi_backend.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

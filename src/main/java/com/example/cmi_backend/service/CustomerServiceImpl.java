@@ -1,5 +1,6 @@
-package com.example.jibi.service;
+package com.example.cmi_backend.service;
 
+import com.example.cmi_backend.entity.Customer;
 import com.example.jibi.entity.Customer;
 import com.example.jibi.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
