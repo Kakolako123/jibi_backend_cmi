@@ -16,7 +16,7 @@ public class ImpayeController {
     }
 
     @GetMapping("/{debtCode}")
-    public Map<String, Object> getImpayesByDebtCode(@PathVariable String debtCode) {
+    public Map<String, Object> getImpayesByDebtCode(@PathVariable Long debtCode) {
         return impayeService.getImpayesByDebtCode(debtCode);
     }
 }

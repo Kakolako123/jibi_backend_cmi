@@ -5,5 +5,5 @@ import com.example.cmi_backend.entity.Creditor;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CreditorRepository extends JpaRepository<Creditor, Long> {
-    Creditor findByCode(String code);
+    Creditor findByCodeCreditor(Long codeCreditor); // Corrected method name
 }

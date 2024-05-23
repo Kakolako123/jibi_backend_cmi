@@ -9,6 +9,8 @@ import lombok.experimental.SuperBuilder;
 import java.time.LocalDate;
 import java.util.Collection;
 import java.util.Date;
+import java.util.List;
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Data
@@ -39,6 +41,8 @@ public class Customer {
     private LocalDate createdDate;
     private String commercialRn;
     private String patent;
+    @OneToMany(mappedBy = "client", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<BankAccount> bankAccounts;
 
     @Override
     public String toString() {

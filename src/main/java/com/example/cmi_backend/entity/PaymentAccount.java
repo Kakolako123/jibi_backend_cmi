@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @Data
@@ -20,4 +21,6 @@ public class PaymentAccount {
     private LocalDate createdDate;
     private String bankName;
     private String PhoneNumber;
+    @OneToMany(mappedBy = "paymentAccount")
+    private List<Transaction> transactions;
 }

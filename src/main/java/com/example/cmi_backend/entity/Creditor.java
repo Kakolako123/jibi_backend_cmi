@@ -1,5 +1,6 @@
 package com.example.cmi_backend.entity;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,6 +21,8 @@ public class Creditor {
     private String creditorName;
     private String category;
     @OneToMany(mappedBy = "creditor", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     private List<Debt> listDebts;
+
 
 }

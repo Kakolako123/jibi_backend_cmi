@@ -24,7 +24,7 @@ public class CreditorController {
     }
 
     @GetMapping("/{code}")
-    public Creditor getCreditorByCode(@PathVariable String code) {
+    public Creditor getCreditorByCode(@PathVariable Long code) {
 
         return creditorService.getCreditorByCode(code);
     }

@@ -8,5 +8,5 @@ public interface CreditorService {
 
     List<Creditor> getAllCreditors();
 
-    Creditor getCreditorByCode(String code);
+    Creditor getCreditorByCode(Long code);
 }

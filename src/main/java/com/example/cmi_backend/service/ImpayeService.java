@@ -7,7 +7,7 @@ import java.util.Map;
 @Service
 public class ImpayeService {
 
-    public Map<String, Object> getImpayesByDebtCode(String debtCode) {
+    public Map<String, Object> getImpayesByDebtCode(Long debtCode) {
         // Logique pour récupérer les impayés basé sur le code de la créance
         return Map.of(
                 "impayeType", "simple",
