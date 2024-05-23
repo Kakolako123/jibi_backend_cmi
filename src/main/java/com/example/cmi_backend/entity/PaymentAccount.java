@@ -5,6 +5,8 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
@@ -20,4 +22,8 @@ public class PaymentAccount {
     private LocalDate createdDate;
     private String bankName;
     private String PhoneNumber;
+
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @JoinColumn(name = "paymentAccountId")
+    private List<Transaction> transactions = new ArrayList<>();
 }

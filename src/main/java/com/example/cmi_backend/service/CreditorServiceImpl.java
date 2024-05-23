@@ -22,6 +22,6 @@ public class CreditorServiceImpl implements CreditorService {
 
     @Override
     public Creditor getCreditorByCode(String code) {
-        return creditorRepository.findByCode(code);
+        return creditorRepository.findByCodeCreditor(code);
     }
 }
